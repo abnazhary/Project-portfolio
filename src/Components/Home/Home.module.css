@@ -1,0 +1,87 @@
+
+
+.homeSection {
+    height: 100vh;
+    position: relative;
+  }
+
+  .caresoulItem img {
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+    object-fit: cover; 
+  }
+  
+  .carouselCaption {
+    position: absolute;
+    top: 50%; 
+    left: 5%;  
+    transform: translateY(-50%); 
+    color: black; 
+    text-align: left;
+    max-width: 90%; 
+  }
+  
+  .carouselCaption h1 {
+    font-size: 3rem; 
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .carouselCaption p {
+    font-size: 1.2rem;  
+    margin-top: 10px;
+  }
+  
+  .carouselButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: transparent; 
+    color: black; 
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .carouselButton:hover {
+    background-color: black;
+    color: white;
+  }
+  
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .carouselCaption{
+        top: 40%;
+        left: 5%;
+        text-align: center;
+        max-width: 100%;
+    }
+
+   
+  
+    .carouselCaption h1 {
+      font-size: 2.5rem;  
+    }
+  
+    .carouselCaption p {
+      font-size: 1rem; 
+    } 
+  
+    .carouselButton {
+      font-size: 1rem;
+      padding: 8px 15px; 
+    }
+
+    
+  }
+  
+  
+    
+  

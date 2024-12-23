@@ -1,0 +1,16 @@
+.sideImg img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.sidebarContainer{
+    width: 100%;
+    background-color: rgb(249, 249, 249, 0.7);
+    height: 100vh;
+}
+
+
+

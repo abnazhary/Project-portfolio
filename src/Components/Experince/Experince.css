@@ -1,0 +1,126 @@
+#experince{
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+
+.experinceTittle{
+    margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: Quicksand, Arial, sans-serif;
+
+}
+
+.experinceHeading{
+  font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+    margin: 0 0 30px;
+    color: #000;
+    font-family: Playfair Display, Georgia, serif;
+}
+
+.timeline-content h2 span{
+    opacity: .4;
+    font-size: 16px;
+}
+
+.timeline-content h2{
+  font-size: 20px;
+}
+
+.timeline{
+  list-style: none;
+  padding: 20px 48px;
+  position: relative;
+}
+
+.timeline li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline li .timeline-icon{
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    right: 100%;
+    box-shadow: 0 0 0 5px #f2f3f7;
+    background: #2c98f0;
+    z-index: 100;
+    border-radius: 50%;
+}
+
+.timeline li .icon2{
+  background: #d9534f !important;
+}
+.timeline li .icon3{
+  background: #f0ad4e !important;
+}
+.timeline li .icon4{
+  margin-top: 24px;
+  background: transparent !important;
+}
+
+.timeline li .timeline-content{
+    width: 92%;
+    float: right;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #f2f3f7;
+}
+
+@media (max-width: 768px) {
+  #experince {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  .timeline {
+    padding: 10px 20px;
+  }
+
+  .timeline li {
+    margin: 30px;
+  }
+
+  .timeline li .timeline-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    right: 103%;
+    font-size: 1.2em;
+    top: 10px; /* لتصغير المسافة بين الأيقونات */
+  }
+
+  .timeline li .timeline-content {
+    width: 100%; /* لجعل المحتوى يأخذ عرض الشاشة بالكامل */
+    float: none;
+    padding: 15px;
+  }
+
+  .timeline-content h2 {
+    font-size: 18px;
+  }
+
+  .timeline-content h2 span {
+    font-size: 14px;
+  }
+
+  .timeline-content p {
+    font-size: 14px;
+  }
+}
+
